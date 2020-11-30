@@ -1,0 +1,66 @@
+========== begin init state ==========
+Student(1, Fred Brooks)
+Student(4, Diana Shirley)
+Course(3, CS Basics)
+Course(2, Phy 101)
+
+Fred Brooks: CS Basics
+Diana Shirley: Phy 101
+======================================
+
+========== begin work session ==========
+Student(1, Fred Brooks)
+Student(4, Diana Shirley)
+Student(5, Elanor Rigby)
+Course(3, CS Basics)
+Course(2, Phy 101)
+Course(4, Calc 7)
+
+Fred Brooks: CS Basics, Calc 7
+Diana Shirley: Phy 101, Calc 7
+Elanor Rigby: Calc 7
+========================================
+
+========== begin old read session ==========
+Student(1, Fred Brooks)
+Student(4, Diana Shirley)
+Course(3, CS Basics)
+Course(2, Phy 101)
+
+Fred Brooks: CS Basics
+Diana Shirley: Phy 101
+============================================
+
+Math students
+Student(1, Frederic Brooks)
+Student(4, Diana Shirley)
+Student(5, Elanor Rigby)
+(Old) CS students
+Student(1, Fred Brooks)
+
+========== begin work session after commit ==========
+Student(1, Fred Brooks)
+Student(4, Diana Shirley)
+Student(5, Elanor Rigby)
+Course(3, CS Basics)
+Course(2, Phy 101)
+Course(4, Calc 7)
+
+Fred Brooks: CS Basics, Calc 7
+Diana Shirley: Phy 101, Calc 7
+Elanor Rigby: Calc 7
+=====================================================
+
+========== begin read session after commit ==========
+Student(1, Fred Brooks)
+Student(4, Diana Shirley)
+Student(5, Elanor Rigby)
+Course(3, CS Basics)
+Course(2, Phy 101)
+Course(4, Calc 7)
+
+Fred Brooks: CS Basics, Calc 7
+Diana Shirley: Phy 101, Calc 7
+Elanor Rigby: Calc 7
+=====================================================
+
